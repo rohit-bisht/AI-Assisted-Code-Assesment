@@ -7,7 +7,7 @@ Our project aims is to provide AI-assisted code assessment services to help deve
 
 The idea is to develop a single push button solution that can be executed for every pull request and able to evaluate code quickly and accurately, offering developers customized suggestions and solutions.
 
-Definition of Problem
+# Definition of Problem
 
 Code assessment is a critical quality gate check in SDLC process that help in early discovery of mistakes in newly written code. Though they are important, at time they may also become bottlenecks for quick delivery of finished product.
 1. This tool will perform initial checks of the process guidelines in place and suggest fix.
