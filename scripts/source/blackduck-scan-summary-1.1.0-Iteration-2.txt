@@ -1,0 +1,21 @@
+[{
+    "componentName": "Apache ActiveMQ",
+    "componentVersion": "activemq-5.15.13",
+    "securityRisk": "HIGH",
+    "vulnerabilities": {
+        "CVE-2020-13947": "An instance of a cross-site scripting vulnerability was identified to be present in the web based administration console on the message.jsp page of Apache ActiveMQ versions 5.15.12 through 5.16.0.",
+        "CVE-2021-26117": "The optional ActiveMQ LDAP login module can be configured to use anonymous access to the LDAP server. In this case, for Apache ActiveMQ Artemis prior to version 2.16.0 and Apache ActiveMQ prior to versions 5.16.1 and 5.15.14, the anonymous context is used to verify a valid users password in error, resulting in no check on the password."
+    },
+    "shortTermGuidance": "5.18.0",
+    "longTermGuidance": "5.18.0",
+},
+{
+    "componentName": "Apache Commons FileUpload",
+    "componentVersion": "1.4",
+    "securityRisk": "HIGH",
+    "vulnerabilities": {
+        "CVE-2023-24998": "Apache Commons FileUpload before 1.5 does not limit the number of request parts to be processed resulting in the possibility of an attacker triggering a DoS with a malicious upload or series of uploads. Note that, like all of the file upload limits, the new configuration option (FileUploadBase#setFileCountMax) is not enabled by default and must be explicitly configured."
+    },
+    "shortTermGuidance": "1.5",
+    "longTermGuidance": "1.5",
+}]
